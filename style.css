@@ -126,3 +126,39 @@ body p {
 .hero-right-section img {
     width: 100%;
 }
+
+
+.features-section {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.features-section .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.features-section .container .features-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.features-section .container .features-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features-boxes .features-box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 535px;
+    gap: 10px;
+    border: 1px solid grey;
+    padding : 20px;
+    margin-bottom: 30px;
+}
+
+.box-logo {
+    font-size: 30px;
+}
