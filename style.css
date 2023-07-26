@@ -9,6 +9,12 @@
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 18px;
+    /* line-height: 120%; */
+}
+
+body p {
+    color: #737373;
+    line-height: 150%;
 }
 
 .container {
@@ -18,6 +24,7 @@ body {
 
 .navbar {
     height: 100px;
+    background-color: #FBF8F3;
 }
 
 .navbar .container {
@@ -30,12 +37,12 @@ body {
 .navbar .nav-right-links {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .navbar ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 .navbar ul li {
@@ -44,6 +51,7 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
+    color: #737373;
 }
 
 .navbar .chirp-logo {
@@ -65,4 +73,56 @@ body {
     background-color: #1DA1F2;
     border: none;
     border-radius: 5px;
+}
+
+/* Hero section */
+
+.hero-section {
+    background-color: #FBF8F3;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.hero-section .container {
+    display: flex;
+    gap: 60px;
+}
+
+.container .hero-left-section  {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-left-section .hero-big-title {
+    font-weight: 700;
+    font-size: 56px;
+    /* line-height: 100%; */
+}
+
+.hero-left-section .hero-cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-cta-2 .highlight-number {
+    font-weight: 700;
+    color: #1DA1F2;
+}
+
+.learn-more a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+
+.container .hero-right-section {
+    max-width: 480px;
+}
+
+.hero-right-section img {
+    width: 100%;
 }
