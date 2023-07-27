@@ -9,12 +9,18 @@
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 18px;
+    /* color: red; */
+    color: #737373;
     /* line-height: 120%; */
 }
 
 body p {
-    color: #737373;
+    /* color: #737373; */
     line-height: 150%;
+}
+
+body h2 {
+    color: #000;
 }
 
 .container {
@@ -127,6 +133,8 @@ body p {
     width: 100%;
 }
 
+/* Features Section */
+
 
 .features-section {
     background-color: #fff;
@@ -162,3 +170,69 @@ body p {
 .box-logo {
     font-size: 30px;
 }
+
+
+/* Customer Review */
+
+.customer-review {
+    background-color: #D7F5F5;
+    padding: 60px 0;
+}
+
+.customer-review-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.review-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.review-container .review-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.review-box .review-box-title {
+    display: flex;
+    gap: 10px;
+}
+
+.username-container .name {
+    color: #000;
+    font-weight: 700;
+}
+
+.username-container .username {
+    font-size: 12px;
+}
+
+.review-box-title .twitter-logo-blue {
+    margin-left: auto;
+}
+
+.review-box .box-bottom-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-bottom-details .love-icon {
+    display: flex;
+    gap: 5px;
+    background-color: none;
+}
+
+
+    
+    
+    
+    
+    
+    
