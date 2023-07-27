@@ -163,6 +163,7 @@ body h2 {
     flex-basis: 535px;
     gap: 10px;
     border: 1px solid grey;
+    border-radius: 5px;
     padding : 20px;
     margin-bottom: 30px;
 }
