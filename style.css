@@ -229,6 +229,119 @@ body h2 {
     background-color: none;
 }
 
+/* Pricing section */
+
+.pricing {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.pricing .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+.pricing-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.pricing-description {
+    text-align: center;
+}
+
+
+.pricing-container {
+    margin-top: 60px;
+}
+
+.pricing-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding: 40px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: #FBF8F3;
+}
+
+.pricing-box hr {
+    /* border-color: #737373; */
+    border: 1px solid #b9b9b9;
+}
+
+.monthly {
+    font-size: 24px;
+}
+
+.monthly-price .price-bold {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.trial-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #1DA1F2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #D7F5F5;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.left-footer {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    color: #1DA1F2;
+}
+
+.right-footer {
+    display: flex;
+    gap: 30px;
+}
+
+.right-footer .right-footer-links {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.right-footer-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
 
     
     
